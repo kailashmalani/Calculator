@@ -1,10 +1,9 @@
 #include<stdio.h>
-void main()
-{
-int a,b,c;
-a=5;
-b=4;
-c=a+b;
-printf("Addition is:%d",c);
-}
 
+int main(){
+
+int a,b,ans;
+scanf("%d%d",&a,&b);
+ans=a+b;
+printf("The addition of the two numbers is: %d",ans);
+}
